@@ -1,0 +1,342 @@
+/* GLOBALES */
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+label{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+.header-container{
+    background-image: url(./img/header.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.color-container{
+    height: 100vh;
+    background-color: rgba(4, 2, 2, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.principal__h1{
+    color: white;
+    font-size: 8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.principal__p{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.container-btn__principal{
+    text-align: center;
+    margin-top: 2rem;
+}
+.btnPrincipal{
+    padding: 2rem 3.6rem;
+    margin: 3rem 0;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    border-radius: 6rem;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+.btnPrincipal:hover{
+    color: black;
+}
+
+
+/* SECTION APP */
+
+
+/* HEADER */
+.imagenHeader{
+    background-image: url(./img/Projeto\ de\ casa\ térrea\ moderna\ com\ 3\ suítes\ -\ Projetos\ de\ Casas\,\ Modelos\ de\ Casas\ e\ Fachadas\ de\ Casas.jfif);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.containerH2{
+    height: 60vh;
+    background-color: rgba(4, 2, 2, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.containerH2 h2{
+    font-size: 7rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+
+/* SECCION FORMULARIO APP */
+.sectionForm{
+    height: 110vh;
+}
+.principal{
+    height: 100%;
+}
+
+.div_principaForm{
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    margin-bottom: 10rem;
+}
+.pForm{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.form{
+    width: 80rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #191919;
+    border-radius: 2rem;
+}
+.formDesignInput {
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #3498db;
+    margin: 2rem auto;
+    padding: 1.4rem 1rem;
+    width: 40rem;
+    outline: none;
+    color: #fff;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+}
+.formDesignSelect{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #3498db;
+    margin: 2rem auto;
+    padding: 1.4rem 1rem;
+    width: 40rem;
+    color: #fff;
+    outline: none;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+}
+.optionForm{
+    color: black;
+    width: 15rem;
+    text-align: center;
+}
+.formDesignInput:focus{
+    width: 15rem;
+    border-color: #2ecc71;
+}
+.formDesignSelect:focus{
+    width: 15rem;
+    border-color: #2ecc71;
+}
+.botomForm{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    margin: 2rem auto;
+    padding: 1.4rem 4rem;
+    outline: none;
+    color: #fff;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+}
+.botomForm:hover{
+    background: #2ecc71;
+}
+
+/* CAJA FELICITACIONES */
+.cuadroFelicitaciones{
+    width: 80rem;
+    margin: 0 auto;
+}
+.cajaContenedoraFelicitaciones{
+    background-color: #191919;
+    border-radius: 2rem;
+}
+.textFelicitaciones{
+    color: #fff;
+}
+.botomForm2{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    margin: 2rem auto;
+    padding: 1.4rem 4rem;
+    outline: none;
+    color: #fff;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+    width: 17rem;
+}
+.botomForm2:hover{
+    background: #2ecc71;
+}
+
+
+/* BUSCAR CASA POR PRECIO */
+.sectionFiltroPrecio{
+    width: 100vw;
+    margin-top: 5rem;
+}
+.h2FiltrarPrecios{
+    color: #191919;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.containerInputFiltro{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.pFiltro{
+    font-size: 1.5rem;
+}
+.inputFiltro{
+    border: 0;
+    display: block;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 1.4rem 1rem;
+    width: 20rem;
+    outline: none;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+    margin: 1rem;
+}
+.botonFiltro{
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 1.4rem 2rem;
+    outline: none;
+    color: black;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+}
+.botonFiltro:hover{
+    background: black;
+    color: white;
+}
+
+/* CASA ESQUELETO */
+.cabeza{
+    position: relative;
+    width: 110rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+.cabeza .divContainerFiltro{
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+.cabeza .divContainerFiltro:hover{
+    height: 420px;
+}
+.cabeza .divContainerFiltro .tamañoImagenCajaFiltro{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.cabeza .divContainerFiltro .tamañoImagenCajaFiltro img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.cabeza .divContainerFiltro .pasiajeCajaDiv{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.pasiajeCajaDiv p{
+    font-size: 1.5rem;
+    
+}
+.cabeza .divContainerFiltro:hover .pasiajeCajaDiv{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.2s;
+}
+/* FOOTER  */
+footer{
+    background: #191919;
+    height: 10rem;
+    margin: 0;
+    margin-top: 5rem;
+}
+.ulFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+    margin: 0;
+}
+.ulFooter li{
+    color: white;
+    height: 3rem;
+    width: 5rem;
+    list-style: none;
+}
+.ulFooter li a{
+    font-size: 2rem;
+    color: white;
+}
+.ulFooter li a:hover{
+    color: #2ecc71;
+}

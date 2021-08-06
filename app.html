@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acosta - Inmuebles</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- BOOTSRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="container-fluid ">
+        <div class="row imagenHeader">
+            <div class="col-sm-12 col-md-12 col-xl-12 containerH2">
+                <h2 class="text-center">Busca la casa de tus sueños</h2>
+            </div>
+        </div>  
+    </header>
+
+
+<!-- ZONA DE FORMULARIOS  -->
+
+
+    <section class="container sectionForm">
+        <div class="row principal">
+            <div class="col-sm-12 col-md-12 col-xl-12 div_principaForm" >
+                    <form class="form" >
+                        <h2 class="text-center pForm">Llena los formularios para seguir</h2>
+                        <input class="formDesignInput" type="name" name="nombre" id="nombre" placeholder="Nombre">
+                        <label class="formDesign" for="tipoDeMudanza">Categoria</label>
+                        <select class="formDesignSelect" name="tipoDeMudanza" id="tipoDeMudanza">
+                            <option class="optionForm text-center" value="alquiler">Alquiler temporal</option>
+                            <option class="optionForm text-center" value="compra">compra</option>
+                        </select>
+                        <label for="zona">Zona</label>
+                        <input class="formDesignInput" type="text" name="Zona" id="Zona" placeholder="Zona">
+                        <input class="formDesignInput" type="number" name="ambientes" id="ambientes" placeholder="Cantidad de Ambientes">
+                        <button class="botomForm" id="buscar1">Confirmar</button>
+                    </form>
+            </div>
+        </div>
+    </section>
+
+<!-- TARJETA DE FELICITACIONES -->
+
+    <section class="container">
+        <div class="row">
+            <div  id="form"class="col-sm-12 col-md-12 col-xl-12 cuadroFelicitaciones">
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- BUSCQUEDA DE CASAS -->
+    <section id="busquedaDeCasas"class="container sectionFiltroPrecio">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-xl-12 divFiltroPrecio">
+                <h2 class="text-center h2FiltrarPrecios">Busqueda de casas por precio</h2>
+                <p class="text-center pFiltro">A continuacion indica desde que precio quisieras ver las casas? (Hasta $1000000)</p>
+                <div class="containerInputFiltro">
+                    <input type="text" id="verCasas" placeholder="colocar valor"  class="inputFiltro">
+                    <button id="buscar2" class="botonFiltro">Buscar</button>
+                </div>
+                <div id="cabeza" class="cabeza">
+                </div>
+                <div id="casa"></div>
+            </div>
+        </div>
+    </section>
+
+
+ 
+        <!-- FOOTER  -->
+
+    <footer class="dontainer-fluid ">
+        <article class="row">
+            <div class="col-sm-12 col-md-12 col-xl-12">
+                <ul class="ulFooter">
+                    <li><a href="https://www.linkedin.com/in/lautaro-pablo-acosta-ba7a961b8/" target="_BLANK">Linkedin</a></li>
+                    <li><a href="https://github.com/AcostaLau" target="_BLANK">Github</a></li>
+                </ul>
+            </div>
+        </article>
+    </footer>
+
+
+
+
+
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- BOOSTRAP -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- JS MAIN -->
+        <script src="./app.js"></script>
+</body>
+</html>
